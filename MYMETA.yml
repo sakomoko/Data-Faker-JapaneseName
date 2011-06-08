@@ -1,0 +1,34 @@
+---
+abstract: 'Data::Faker plugin'
+author:
+  - 'sakomoko <sakomoko@gmail.com>'
+configure_requires:
+  Module::Build: 0.36
+dynamic_config: 0
+generated_by: 'Module::Build version 0.3607'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Data-Faker-JapaneseName
+provides:
+  Data::Faker::JapaneseName:
+    file: lib/Data/Faker/JapaneseName.pm
+    version: v0.0.3
+  Data::Faker::JapaneseName::FamilyName:
+    file: lib/Data/Faker/JapaneseName/FamilyName.pm
+    version: v0.0.3
+  Data::Faker::JapaneseName::Female:
+    file: lib/Data/Faker/JapaneseName/Female.pm
+    version: v0.0.3
+  Data::Faker::JapaneseName::Male:
+    file: lib/Data/Faker/JapaneseName/Male.pm
+    version: v0.0.3
+requires:
+  Carp: 0
+  Data::Faker: 0
+  YAML: 0
+  version: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: v0.0.3
