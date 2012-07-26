@@ -1,18 +1,43 @@
 Data-Faker-JapaneseName version 0.0.1
 
-[ REPLACE THIS...
+=pod
 
-  The README is used to introduce the module and provide instructions on
-  how to install the module, any machine dependencies it may have (for
-  example C compilers and installed libraries) and any other information
-  that should be understood before the module is installed.
+=head1 NAME
 
-  A README file is required for CPAN modules since CPAN extracts the
-  README file from a module distribution so that people browsing the
-  archive can use it get an idea of the modules uses. It is usually a
-  good idea to provide version information here so that people can
-  decide whether fixes for the module are worth downloading.
-]
+Data::Faker::JapaneseName - Data::Faker plugin
+
+=head1 SYNOPSIS and USAGE
+
+  use Data::Faker;
+
+  my $faker = Data::Faker->new();
+
+  print "Name:    ".$faker->japanese_name."\n";
+
+  See L<Data::Faker>
+
+=head1 DATA PROVIDERS
+
+=over 4
+
+=item japanese_name
+
+Return a fake japanese persons name (utf8 on).
+
+=back
+
+=head1 AUTHOR
+
+sakomoko  C<< <sakomoko@gmail.com> >>
+
+=head1 LICENCE AND COPYRIGHT
+
+Copyright (c) 2010, sakomoko C<< <sakomoko@gmail.com> >>. All rights reserved.
+
+This module is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself. See L<perlartistic>.
+
+=cut
 
 
 INSTALLATION

@@ -24,7 +24,7 @@ Data::Faker::JapaneseName - Data::Faker plugin
   my $faker = Data::Faker->new();
 
   print "Name:    ".$faker->japanese_name."\n";
-  
+
   See L<Data::Faker>
 
 =head1 DATA PROVIDERS
