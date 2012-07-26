@@ -5,7 +5,7 @@ use Data::Faker::JapaneseName;
 use Encode;
 
 my $faker = Data::Faker->new();
-print "redy..\n";
+print "ready..\n";
 while (my $ret = <STDIN>){
 	my $family_name_ref = Data::Faker->japanese_family_name_hash;
 	my $first_name_ref = Data::Faker->japanese_male_name_hash;
